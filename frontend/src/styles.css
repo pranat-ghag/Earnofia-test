@@ -1,0 +1,14 @@
+:root{ --brand:#e11d48; --ink:#515858; --muted:#64748b; }
+body{ background:#e5e8ee; color:#8a2109; font-family:Inter,system-ui,Arial,sans-serif; }
+.side{ width:260px; background:#5b72b1; border-right:1px solid rgba(255,255,255,.06); position:sticky; top:0; height:100vh; }
+.side a{ color:#041f3d; text-decoration:none; display:flex; align-items:center; gap:.8rem; padding:.8rem 1rem; border-radius:.75rem; }
+.side a.active, .side a:hover{ background:rgba(255,255,255,.06); color:#fff; }
+.content{ margin-left:0; }
+@media (min-width:992px){ .content{ margin-left:260px; } }
+.hero-card{ border-radius:18px; overflow:hidden; background:linear-gradient(135deg,#d9dce4,#a8b7d5); }
+.top-tabs a{ color:#a76a15; margin-right:18px; text-decoration:none; }
+.top-tabs a.active{ color:#11010156; border-bottom:2px solid var(--brand); padding-bottom:.5rem; }
+.event-img{ height:180px; width:100%; object-fit:cover; border-radius:12px; }
+.section-title{ display:flex; justify-content:space-between; align-items:center; margin:10px 0 12px; }
+.badge-soft{ background:rgba(49, 4, 14, 0.15); color:#ff9ab9; }
+footer{ color:#114082; }
